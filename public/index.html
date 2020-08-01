@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='../scripts/script.js'></script>
+
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light text-light" style="background-color: #439ddd;">
+        <h2 class="navrbar-brand mx-auto">Weather Dashboard</h2>
+    </nav>
+    <div class="container-fluid h-100">
+
+        <div class="row h-100">
+            <div class="col-3 bg-light" id="sidebar">
+                </br>
+                <label>Search for a City:</label>
+                <div class="input-group">
+                        
+                        <input type="text" placeholder="New York City " class="form-control" id="city-input">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-info" id="submit-city" ><i class="fa fa-search" ></i></button>
+                        </div>
+                </div>
+                <br>
+                <div class="btn-group-vertical col-12" id="cities-list">
+
+                </div>
+            </div>
+            <div class="col-9" id="weather-display">
+                <br>
+                <div id="current-day">
+
+                </div>
+                <br>
+                <div id="five-day">
+                    
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>  
+
+</body>
+</html>

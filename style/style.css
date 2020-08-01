@@ -1,0 +1,36 @@
+html,body {
+    height:100%;
+  }
+  
+button > * {
+    pointer-events: none;
+}
+
+#submit-city {
+    background-color: #439ddd;
+}
+
+#submit-city:hover {
+    background-color: #2f81c3;
+}
+
+.fiveDay{
+    background-color: #a0c8e9; 
+    border-color: #343a40;
+    border-radius: 25px;
+}
+
+#current-card{
+    background-color: hsl(61, 64%, 71%);
+    border-color: #343a40;
+    border-radius: 25px;
+}
+
+@media (max-width:695px){
+    #sidebar{
+        display:none;
+
+    }
+}
+
+
